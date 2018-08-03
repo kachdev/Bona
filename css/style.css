@@ -58,7 +58,7 @@
     
 }
 .countdown li{
-    padding: 30px;
+    margin:30px auto;
 }
 .countdown li span{
     font-family: "Open Sans", sans-serif;
@@ -243,7 +243,13 @@ form{
         text-indent: 0px;
         color: #fff;
     }
-
+    .countdown li span{
+        font-size: 25px;
+    }
+    .countdown li{
+        padding: 20px;
+        margin: auto;
+    }
     .countdown li p{
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         font-size: 10px;
@@ -265,7 +271,11 @@ form{
         align-items: center;
         width: 100%;
         list-style: none;
-        margin: 50px auto;
+        margin: auto;
+    }
+
+    .social-icons li{
+        margin: auto;
     }
 
     #particles-js{
@@ -295,7 +305,7 @@ form{
         width: 10rem;
         border-top-right-radius: 0 !important;
         border-bottom-right-radius: 0 !important;
-        height: 2rem;
+        height: 3rem;
         padding-left: 1.5rem;
         border: 1px solid #fff;
         border-radius: 25px;
@@ -310,7 +320,7 @@ form{
         border-top-left-radius: 0 !important;
         border-bottom-left-radius: 0 !important;
         width: 100%;
-        height: 2rem;
+        height: 3rem;
         border: 1px solid #b62474;
         border-radius: 25px;
         background-color: #b62474;
